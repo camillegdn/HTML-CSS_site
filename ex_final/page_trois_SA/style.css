@@ -1,0 +1,167 @@
+body{
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+header{
+    text-align: center;
+    width: 100vw;
+    height: 10vw;
+
+}
+
+#blasontitre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.blason{
+    width: 8%;
+
+}
+
+.princ{
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    
+    width: 15vw;
+    text-align: center;
+}
+nav{
+    width: 13vw;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cd{
+    width: 30%;
+}
+#ll{
+    width: 30%;
+}
+#dm{
+    width: 20%;
+}
+#hg{
+    width: 20%;
+}
+*{
+    background-color: rgb(32, 46, 82);
+    color: beige;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60vw;
+    height: 60vh;
+    text-align: center; 
+    align-items: center;
+}
+#serpentard{
+    width: 40%;
+   
+    
+}
+
+.titre{
+    font-size: 70%;
+    
+}
+
+.maisons{
+    text-decoration: underline;
+}
+
+.description{
+    font-size: 45%;
+    
+}
+
+.imagef{
+    width: 30%;
+}
+#imagebalais{
+    width: 20%;
+}
+
+#titreaq{
+    text-align: center;
+}
+
+#autrequizz{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0.5%;
+}
+
+*{
+    margin: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#quizzdebut{
+    text-align: center;
+    font-size: 245%;
+}
+
+#premierequestion{
+    font-size: 120%;
+}
+
+#serpentard{
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-device-width: 700px){
+
+    main{
+        width: 80vw;
+        font-size: 60%;
+    }
+    aside{
+        width: 10vw;
+        font-size: 20%;
+    }
+    header{
+        height: 30%;
+        font-size: 30%;
+    }
+    nav{
+        width: 8vw;
+        font-size: 50%;
+    }
+    footer{
+        height: 30%;
+        font-size: 20%;
+    }
+    *{
+        margin: 0.5%;
+    }
+
+    .description{
+        font-size: 35%;
+    }
+
+    #titrelien{
+        font-size: 130%;
+        text-align: center;
+    }
+    .maisons{
+        color: rgb(10, 11, 98);
+    }
+
+    .liens{
+        color: rgb(10, 11, 98);
+    }
+    
+}
